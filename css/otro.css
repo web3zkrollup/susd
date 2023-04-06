@@ -1,0 +1,53 @@
+@font-face
+{
+	font-family:Volter;
+	src:url(../fonts/Volter.ttf);
+}
+@font-face
+{
+	font-family:Volter Bold;
+	src:url(../fonts/VolterBold.ttf);
+}
+a
+{
+	color:#000000;
+}
+.nav a
+{
+	color:#FFFFFF;
+	text-shadow:#337287 0 1px;
+	text-transform:uppercase;
+	font-weight:bold;
+	padding: 13px 15px 0 15px;
+	float:left;
+	text-decoration:none;
+}
+.nav a:hover
+{
+	background:url(../imagenes/otros/nav_hover.png);
+	height:30px;
+	color:#FFFFFF;
+	text-shadow:#337287 0 1px;
+	text-transform:uppercase;
+	font-weight:bold;
+	padding: 13px 15px 0 15px;
+	float:left;
+	text-decoration:none;
+}
+.subnav a
+{
+	text-decoration:none;
+	color:#742626;
+}
+.subnav a:hover
+{
+	text-decoration:none;
+	color:#742626;
+	font-family:Volter Bold;
+}
+.footer_right
+{
+	width:250px;
+	float:right;
+	text-align:right;
+}
